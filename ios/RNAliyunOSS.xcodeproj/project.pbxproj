@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		1842ED021EEBA70B004D40E3 /* RNAliyunOSS.m in Sources */ = {isa = PBXBuildFile; fileRef = 1842ED011EEBA70B004D40E3 /* RNAliyunOSS.m */; };
+		942CD00920E732FC00BE2359 /* RNAliyunOSS+DOWNLOAD.m in Sources */ = {isa = PBXBuildFile; fileRef = 942CCFFC20E732FA00BE2359 /* RNAliyunOSS+DOWNLOAD.m */; };
+		942CD00A20E732FC00BE2359 /* RNAliyunOSS+OBJECT.m in Sources */ = {isa = PBXBuildFile; fileRef = 942CCFFD20E732FA00BE2359 /* RNAliyunOSS+OBJECT.m */; };
+		942CD00B20E732FC00BE2359 /* RNAliyunOSS+AUTH.m in Sources */ = {isa = PBXBuildFile; fileRef = 942CCFFF20E732FB00BE2359 /* RNAliyunOSS+AUTH.m */; };
+		942CD00C20E732FC00BE2359 /* RNAliyunOSS+UPLOAD.m in Sources */ = {isa = PBXBuildFile; fileRef = 942CD00120E732FB00BE2359 /* RNAliyunOSS+UPLOAD.m */; };
+		942CD00D20E732FC00BE2359 /* RNAliyunOSS+LOG.m in Sources */ = {isa = PBXBuildFile; fileRef = 942CD00220E732FB00BE2359 /* RNAliyunOSS+LOG.m */; };
+		942CD00E20E732FC00BE2359 /* RNAliyunOSS+BUCKET.m in Sources */ = {isa = PBXBuildFile; fileRef = 942CD00320E732FB00BE2359 /* RNAliyunOSS+BUCKET.m */; };
+		942CD00F20E732FC00BE2359 /* RNAliyunOSS+MULTIPARTUPLOAD.m in Sources */ = {isa = PBXBuildFile; fileRef = 942CD00420E732FB00BE2359 /* RNAliyunOSS+MULTIPARTUPLOAD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +34,20 @@
 		1842ED001EEBA70B004D40E3 /* RNAliyunOSS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNAliyunOSS.h; sourceTree = "<group>"; };
 		1842ED011EEBA70B004D40E3 /* RNAliyunOSS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNAliyunOSS.m; sourceTree = "<group>"; };
 		186899B21F31997000841D5D /* AliyunOSSiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AliyunOSSiOS.framework; path = AliyunSDK/AliyunOSSiOS.framework; sourceTree = "<group>"; };
+		942CCFFB20E732FA00BE2359 /* RNAliyunOSS+DOWNLOAD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNAliyunOSS+DOWNLOAD.h"; sourceTree = "<group>"; };
+		942CCFFC20E732FA00BE2359 /* RNAliyunOSS+DOWNLOAD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RNAliyunOSS+DOWNLOAD.m"; sourceTree = "<group>"; };
+		942CCFFD20E732FA00BE2359 /* RNAliyunOSS+OBJECT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RNAliyunOSS+OBJECT.m"; sourceTree = "<group>"; };
+		942CCFFE20E732FA00BE2359 /* RNAliyunOSS+LOG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNAliyunOSS+LOG.h"; sourceTree = "<group>"; };
+		942CCFFF20E732FB00BE2359 /* RNAliyunOSS+AUTH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RNAliyunOSS+AUTH.m"; sourceTree = "<group>"; };
+		942CD00020E732FB00BE2359 /* RNAliyunOSS+BUCKET.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNAliyunOSS+BUCKET.h"; sourceTree = "<group>"; };
+		942CD00120E732FB00BE2359 /* RNAliyunOSS+UPLOAD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RNAliyunOSS+UPLOAD.m"; sourceTree = "<group>"; };
+		942CD00220E732FB00BE2359 /* RNAliyunOSS+LOG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RNAliyunOSS+LOG.m"; sourceTree = "<group>"; };
+		942CD00320E732FB00BE2359 /* RNAliyunOSS+BUCKET.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RNAliyunOSS+BUCKET.m"; sourceTree = "<group>"; };
+		942CD00420E732FB00BE2359 /* RNAliyunOSS+MULTIPARTUPLOAD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RNAliyunOSS+MULTIPARTUPLOAD.m"; sourceTree = "<group>"; };
+		942CD00520E732FB00BE2359 /* RNAliyunOSS+UPLOAD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNAliyunOSS+UPLOAD.h"; sourceTree = "<group>"; };
+		942CD00620E732FB00BE2359 /* RNAliyunOSS+OBJECT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNAliyunOSS+OBJECT.h"; sourceTree = "<group>"; };
+		942CD00720E732FB00BE2359 /* RNAliyunOSS+MULTIPARTUPLOAD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNAliyunOSS+MULTIPARTUPLOAD.h"; sourceTree = "<group>"; };
+		942CD00820E732FC00BE2359 /* RNAliyunOSS+AUTH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNAliyunOSS+AUTH.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +83,20 @@
 				186899B11F31993900841D5D /* AliyunSDK */,
 				1842ED001EEBA70B004D40E3 /* RNAliyunOSS.h */,
 				1842ED011EEBA70B004D40E3 /* RNAliyunOSS.m */,
+				942CD00820E732FC00BE2359 /* RNAliyunOSS+AUTH.h */,
+				942CCFFF20E732FB00BE2359 /* RNAliyunOSS+AUTH.m */,
+				942CD00020E732FB00BE2359 /* RNAliyunOSS+BUCKET.h */,
+				942CD00320E732FB00BE2359 /* RNAliyunOSS+BUCKET.m */,
+				942CCFFB20E732FA00BE2359 /* RNAliyunOSS+DOWNLOAD.h */,
+				942CCFFC20E732FA00BE2359 /* RNAliyunOSS+DOWNLOAD.m */,
+				942CCFFE20E732FA00BE2359 /* RNAliyunOSS+LOG.h */,
+				942CD00220E732FB00BE2359 /* RNAliyunOSS+LOG.m */,
+				942CD00720E732FB00BE2359 /* RNAliyunOSS+MULTIPARTUPLOAD.h */,
+				942CD00420E732FB00BE2359 /* RNAliyunOSS+MULTIPARTUPLOAD.m */,
+				942CD00620E732FB00BE2359 /* RNAliyunOSS+OBJECT.h */,
+				942CCFFD20E732FA00BE2359 /* RNAliyunOSS+OBJECT.m */,
+				942CD00520E732FB00BE2359 /* RNAliyunOSS+UPLOAD.h */,
+				942CD00120E732FB00BE2359 /* RNAliyunOSS+UPLOAD.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -122,7 +157,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				942CD00C20E732FC00BE2359 /* RNAliyunOSS+UPLOAD.m in Sources */,
+				942CD00F20E732FC00BE2359 /* RNAliyunOSS+MULTIPARTUPLOAD.m in Sources */,
+				942CD00A20E732FC00BE2359 /* RNAliyunOSS+OBJECT.m in Sources */,
+				942CD00B20E732FC00BE2359 /* RNAliyunOSS+AUTH.m in Sources */,
+				942CD00E20E732FC00BE2359 /* RNAliyunOSS+BUCKET.m in Sources */,
 				1842ED021EEBA70B004D40E3 /* RNAliyunOSS.m in Sources */,
+				942CD00D20E732FC00BE2359 /* RNAliyunOSS+LOG.m in Sources */,
+				942CD00920E732FC00BE2359 /* RNAliyunOSS+DOWNLOAD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
